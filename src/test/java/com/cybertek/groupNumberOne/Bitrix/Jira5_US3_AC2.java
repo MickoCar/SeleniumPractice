@@ -45,5 +45,7 @@ public class Jira5_US3_AC2 {
         save.click();
         WebElement send = driver.findElement(By.xpath("//button[@id='blog-submit-button-save']"));
         send.click();
+        
+        // first commit
     }
 }
